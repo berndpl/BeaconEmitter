@@ -16,11 +16,20 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
     var enabled:Bool = false
     @IBOutlet var emitterSwitch: UISwitch!
     
+<<<<<<< HEAD
     //MARK: Beacon Credentials
     
     let uuid:NSUUID = NSUUID(UUIDString: "AA6062F0-98CA-4211-8EC4-193EB73CEBE6")!
     let major:NSNumber = NSNumber(short: 100)
     let minor:NSNumber = NSNumber(short: 701)
+=======
+    //MARK: BEACON CREDENTIALS for "Home"
+    // For other creditials see - https://github.com/AwwApps/Open-Beacon-Credentials
+    
+    let uuid:NSUUID = NSUUID(UUIDString: "AA6062F0-98CA-4211-8EC4-193EB73CEBE6")!
+    let major:NSNumber = NSNumber(short: 100)
+    let minor:NSNumber = NSNumber(short: 0)
+>>>>>>> Initial
     let power:NSNumber = NSNumber(short: -59)
     let identifier:NSString = "de.plontsch.Emitter"
     
