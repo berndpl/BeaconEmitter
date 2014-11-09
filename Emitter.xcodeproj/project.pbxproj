@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73C159CB1A0FF9E600134ADD /* BeaconEmitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconEmitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C159CB1A0FF9E600134ADD /* Emitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C159CF1A0FF9E600134ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73C159D01A0FF9E600134ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C159D21A0FF9E600134ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		73C159CC1A0FF9E600134ADD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73C159CB1A0FF9E600134ADD /* BeaconEmitter.app */,
+				73C159CB1A0FF9E600134ADD /* Emitter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73C159CA1A0FF9E600134ADD /* BeaconEmitter */ = {
+		73C159CA1A0FF9E600134ADD /* Emitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73C159EA1A0FF9E600134ADD /* Build configuration list for PBXNativeTarget "BeaconEmitter" */;
+			buildConfigurationList = 73C159EA1A0FF9E600134ADD /* Build configuration list for PBXNativeTarget "Emitter" */;
 			buildPhases = (
 				73C159C71A0FF9E600134ADD /* Sources */,
 				73C159C81A0FF9E600134ADD /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = BeaconEmitter;
+			name = Emitter;
 			productName = BeaconEmitter;
-			productReference = 73C159CB1A0FF9E600134ADD /* BeaconEmitter.app */;
+			productReference = 73C159CB1A0FF9E600134ADD /* Emitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 73C159C61A0FF9E600134ADD /* Build configuration list for PBXProject "BeaconEmitter" */;
+			buildConfigurationList = 73C159C61A0FF9E600134ADD /* Build configuration list for PBXProject "Emitter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73C159CA1A0FF9E600134ADD /* BeaconEmitter */,
+				73C159CA1A0FF9E600134ADD /* Emitter */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeaconEmitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emitter;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -267,14 +267,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BeaconEmitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emitter;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73C159C61A0FF9E600134ADD /* Build configuration list for PBXProject "BeaconEmitter" */ = {
+		73C159C61A0FF9E600134ADD /* Build configuration list for PBXProject "Emitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73C159E81A0FF9E600134ADD /* Debug */,
@@ -283,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73C159EA1A0FF9E600134ADD /* Build configuration list for PBXNativeTarget "BeaconEmitter" */ = {
+		73C159EA1A0FF9E600134ADD /* Build configuration list for PBXNativeTarget "Emitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73C159EB1A0FF9E600134ADD /* Debug */,

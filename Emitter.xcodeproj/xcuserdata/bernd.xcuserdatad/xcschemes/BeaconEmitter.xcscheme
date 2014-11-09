@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "73C159CA1A0FF9E600134ADD"
-               BuildableName = "BeaconEmitter.app"
-               BlueprintName = "BeaconEmitter"
-               ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+               BuildableName = "Emitter.app"
+               BlueprintName = "Emitter"
+               ReferencedContainer = "container:Emitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "73C159DF1A0FF9E600134ADD"
                BuildableName = "BeaconEmitterTests.xctest"
                BlueprintName = "BeaconEmitterTests"
-               ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+               ReferencedContainer = "container:Emitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "73C159DF1A0FF9E600134ADD"
                BuildableName = "BeaconEmitterTests.xctest"
                BlueprintName = "BeaconEmitterTests"
-               ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+               ReferencedContainer = "container:Emitter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73C159CA1A0FF9E600134ADD"
-            BuildableName = "BeaconEmitter.app"
-            BlueprintName = "BeaconEmitter"
-            ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+            BuildableName = "Emitter.app"
+            BlueprintName = "Emitter"
+            ReferencedContainer = "container:Emitter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73C159CA1A0FF9E600134ADD"
-            BuildableName = "BeaconEmitter.app"
-            BlueprintName = "BeaconEmitter"
-            ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+            BuildableName = "Emitter.app"
+            BlueprintName = "Emitter"
+            ReferencedContainer = "container:Emitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73C159CA1A0FF9E600134ADD"
-            BuildableName = "BeaconEmitter.app"
-            BlueprintName = "BeaconEmitter"
-            ReferencedContainer = "container:BeaconEmitter.xcodeproj">
+            BuildableName = "Emitter.app"
+            BlueprintName = "Emitter"
+            ReferencedContainer = "container:Emitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
