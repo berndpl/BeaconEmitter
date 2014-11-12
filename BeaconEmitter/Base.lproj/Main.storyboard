@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BeaconEmitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emitter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,16 +21,25 @@
                             </switch>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="cWA-bW-VIM" secondAttribute="centerY" id="91z-2T-GSm"/>
                             <constraint firstAttribute="centerX" secondItem="cWA-bW-VIM" secondAttribute="centerX" id="vhT-Fo-ZiZ"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="bNg-fF-CAb" appends="YES" id="5Wg-sw-iAN"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="emitterSwitch" destination="cWA-bW-VIM" id="CiA-ve-hs6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bNg-fF-CAb">
+                    <connections>
+                        <action selector="tapToSwitch:" destination="BYZ-38-t0r" id="pgy-Mn-t5m"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>

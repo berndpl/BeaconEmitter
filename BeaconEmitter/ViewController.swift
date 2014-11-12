@@ -16,6 +16,16 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
     var enabled:Bool = false
     @IBOutlet var emitterSwitch: UISwitch!
     
+    @IBAction func tapToSwitch(sender: AnyObject) {
+        if emitterSwitch.on == true {
+            emitterSwitch.setOn(false, animated: true)
+            enabled = false
+        } else {
+            emitterSwitch.setOn(true, animated: true)
+            enabled = true
+        }
+        configurationChanged()
+    }
     //MARK: BEACON CREDENTIALS for "Home"
     // For other creditials see - https://github.com/AwwApps/Open-Beacon-Credentials
     
